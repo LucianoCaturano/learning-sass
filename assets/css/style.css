@@ -1,0 +1,257 @@
+html{
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+body{
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 400;
+
+}
+
+/* ----------- Début MENU------------- */
+
+nav{
+    width: 100%;
+    margin: -17px 0px 0px -10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    background: #28292a;
+    position:fixed;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+}
+
+nav img{
+    width: 85px;
+    height: 25px;
+    margin-top: -10px;
+    margin-bottom: -1px;
+}
+li{
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    color: #fefefe;
+    font-size: 14px;
+
+}
+
+.Login{
+    position: absolute;
+    right: 5%;
+}
+
+
+/* ----------- Fin MENU ------------- */
+
+/* ---------- Début HEADER --------------*/
+
+header{
+    width: 100%;
+    height: 350px;
+    background-color:#3594cd;
+    margin-left: -10px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.JSGeek{
+    width: auto;
+    height: 75%;
+    position: relative;
+    left: 25%;
+    top: 15%;
+}
+
+.restdblogo{
+    width: 300px;
+    margin-top: 16%;
+
+}
+
+.Left{
+    width: 40%;
+}
+
+.Center{
+    width: 30%;
+    text-align: center;
+    margin-right: 35%;
+}
+
+.Center h2{
+    color: white;
+    letter-spacing: 0;
+    font-weight: 300;
+
+}
+
+.Center button{
+    font-size:150%;
+    padding: 15px 20px 15px 20px;
+    color: #fefefe;
+    font-weight: bold;
+    background-color:#e78e2d;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #fefefe;
+}
+
+/* ---------- Fin HEADER --------------*/
+
+/* ----------- Début INTERLINE ------------- */
+
+.interline{
+    height: 10%;
+}
+
+.interline h2{
+    text-align:center;
+    font-weight:lighter;
+}
+
+/* -----------  Fin INTERLINE ------------- */
+
+/* ---------- Début BOX ------------- */
+
+.box{
+    background-color: #3594cd;
+    width: auto;
+    height: 300px;
+    margin-left: -10px;
+    margin-right: -15px;
+    padding-bottom: 30px;
+}
+
+.box div{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.box .two{
+    width: 50%;
+    margin-top: 30px;
+
+}
+
+.one h2, .one p{
+    padding-left: 35%;
+    color: #fefefe;
+    font-weight: lighter;
+}
+
+.two h2, .two p{
+    color: #fefefe;
+    font-weight: lighter;
+    padding-right: 35%;
+}
+
+/* ---------- Fin BOX -------------- */
+
+/*--------- Début INTERLINE--------- */
+
+.bottombox{
+    height: 10%;
+    text-align: center;
+}
+
+.bottombox h2{
+    font-weight:lighter;
+    color: #6b6b6c;
+}
+
+/*--------- Fin INTERLINE--------- */
+
+/* --------- Début LOGOS ------------------ */
+
+.appli{
+    height: 250px;
+    background-color: #eae8e5;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.appli li{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.appli img{
+    width: 100px;
+}
+
+.appli ul{
+    text-align: center;
+}
+
+ul .AppTruck{
+    width: 50px;
+    vertical-align:bottom;
+    padding-top: 20px;
+}
+
+.appli .ProductHunt{
+    width: 200px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+/* --------- Fin LOGOS ------------------ */
+
+
+/* ----------- Début LOGOS ------------------------ */
+
+.buttons{
+    text-align:center;
+    margin-top: 30px;
+}
+
+.OrangeButton{
+    font-size:130%;
+    padding: 14px 18px 14px 18px;
+    color: #fefefe;
+    font-weight: bold;
+    background-color:#e78e2d;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #fefefe;
+}
+
+.BlueButton{
+    font-size:130%;
+    padding: 14px 18px 14px 18px;
+    color: #fefefe;
+    font-weight: bold;
+    background-color:#1c5581;
+    border-radius: 10px;
+}
+
+/* ----------- Fin LOGOS ------------------------ */
+
+/* ---------- Début FOOTER ----------- */
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: -10px;
+    padding-right: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:#242828;
+}
+
+footer ul{
+    display: flex;
+
+}
+
+.Copyright{
+    position: absolute;
+    right: 0;
+}
+
+/* ---------- Fin du FOOTER ----------- */
