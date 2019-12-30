@@ -1,11 +1,261 @@
-html {
-    font-size: (14 / 16) * 1em;
+$font-stack:"Open Sans",Arial,sans-serif;
+$primary-color:#3594cd;
+$secondary-color:#fefefe;
+
+@import './button';
+
+
+
+html{
+  font: 100% $font-stack;
 }
-.foo{
-    font: {
-      family: arial;
-      weight: bold;
-      size: 2em;
-      color:red;
-    }
-  }
+
+body{
+  font: 100% $font-stack;
+  font-weight: 400;
+
+}
+
+// Début MENU
+
+nav{
+  width: 100%;
+  margin: -17px 0px 0px -10px;
+  padding-top: 5px;
+  padding-right: 5px;
+  background: #28292a;
+  position:fixed;
+}
+
+nav {
+      ul{
+  display: flex;
+  flex-direction: row;
+  margin-left: 8%;
+      }
+
+      img{
+  width: 85px;
+  height: 25px;
+  margin-top: -10px;
+  margin-bottom: -1px;
+      }
+      li{
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+  color: $secondary-color;
+  font-size: 14px;
+      }
+
+}
+
+.Login{
+  position: absolute;
+  right: 5%;
+}
+
+
+/* ----------- Fin MENU ------------- */
+
+/* ---------- Début HEADER --------------*/
+
+header{
+  width: 100%;
+  height: 350px;
+  background-color: $primary-color;
+  margin-left: -10px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.JSGeek{
+  width: auto;
+  height: 75%;
+  position: relative;
+  left: 25%;
+  top: 15%;
+}
+
+.restdblogo{
+  width: 300px;
+  margin-top: 16%;
+
+}
+
+.Left{
+  width: 40%;
+}
+
+.Center{
+  width: 30%;
+  text-align: center;
+  margin-right: 35%;
+}
+
+.Center h2{
+  color: white;
+  letter-spacing: 0;
+  font-weight: 300;
+
+}
+
+.Center button{
+  font-size:150%;
+  padding: 15px 20px 15px 20px;
+  color: $secondary-color;
+  font-weight: bold;
+  background-color:#e78e2d;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: $secondary-color;
+}
+
+/* ---------- Fin HEADER --------------*/
+
+/* ----------- Début INTERLINE ------------- */
+
+.interline{
+  height: 10%;
+}
+
+.interline h2{
+  text-align:center;
+  font-weight:lighter;
+}
+
+/* -----------  Fin INTERLINE ------------- */
+
+/* ---------- Début BOX ------------- */
+
+.box{
+  background-color: $primary-color;
+  width: auto;
+  height: 300px;
+  margin-left: -10px;
+  margin-right: -15px;
+  padding-bottom: 30px;
+}
+
+.box div{
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.box .two{
+  width: 50%;
+  margin-top: 30px;
+
+}
+
+.one h2, .one p{
+  padding-left: 35%;
+  color: $secondary-color;
+  font-weight: lighter;
+}
+
+.two h2, .two p{
+  color: $secondary-color;
+  font-weight: lighter;
+  padding-right: 35%;
+}
+
+/* ---------- Fin BOX -------------- */
+
+/*--------- Début INTERLINE--------- */
+
+.bottombox{
+  height: 10%;
+  text-align: center;
+}
+
+.bottombox h2{
+  font-weight:lighter;
+  color: #6b6b6c;
+}
+
+/*--------- Fin INTERLINE--------- */
+
+/* --------- Début LOGOS ------------------ */
+
+.appli{
+  height: 250px;
+  background-color: #eae8e5;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.appli li{
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.appli img{
+  width: 100px;
+}
+
+.appli ul{
+  text-align: center;
+}
+
+ul .AppTruck{
+  width: 50px;
+  vertical-align:bottom;
+  padding-top: 20px;
+}
+
+.appli .ProductHunt{
+  width: 200px;
+  margin-left: 45%;
+  margin-top: 20px;
+}
+/* --------- Fin LOGOS ------------------ */
+
+
+/* ----------- Début LOGOS ------------------------ */
+
+.buttons{
+  text-align:center;
+  margin-top: 30px;
+}
+
+.OrangeButton{
+  @include button;
+  background-color:#e78e2d;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: $secondary-color;
+}
+
+.BlueButton{
+  @include button;
+  background-color:#1c5581;
+  border-radius: 10px;
+}
+
+/* ----------- Fin LOGOS ------------------------ */
+
+/* ---------- Début FOOTER ----------- */
+footer{
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  margin-left: -10px;
+  padding-right: 22px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:#242828;
+}
+
+footer ul{
+  display: flex;
+
+}
+
+.Copyright{
+  position: absolute;
+  right: 0;
+}
+
+/* ---------- Fin du FOOTER ----------- */
