@@ -17,17 +17,15 @@ body{
 }
 
 // Début MENU
+/* ----------- Début MENU ------------- */
 
-nav{
+.premier {
   width: 100%;
   margin: -17px 0px 0px -10px;
   padding-top: 5px;
   padding-right: 5px;
   background: #28292a;
   position:fixed;
-}
-
-nav {
       ul{
   display: flex;
   flex-direction: row;
@@ -203,6 +201,7 @@ ul .AppTruck{
   width: 50px;
   vertical-align:bottom;
   padding-top: 20px;
+  
 }
 
 .appli .ProductHunt{
@@ -237,7 +236,7 @@ ul .AppTruck{
 /* ----------- Fin LOGOS ------------------------ */
 
 /* ---------- Début FOOTER ----------- */
-footer{
+.second {
   width: 100%;
   height: auto;
   margin-top: 80px;
@@ -246,12 +245,18 @@ footer{
   padding-top: 5px;
   padding-bottom: 5px;
   background-color:#242828;
+  color: white;
+  ul{
+    display: flex;
+  }
+  li{
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+  }
 }
 
-footer ul{
-  display: flex;
 
-}
 
 .Copyright{
   position: absolute;
